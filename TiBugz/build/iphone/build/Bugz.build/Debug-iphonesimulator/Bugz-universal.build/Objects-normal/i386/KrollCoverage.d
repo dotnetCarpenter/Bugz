@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/KrollCoverage.m
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/KrollCoverage.m

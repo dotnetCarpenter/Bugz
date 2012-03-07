@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/GDataXMLNode.m \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/GDataXMLNode.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/GDataXMLNode.m \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/GDataXMLNode.h \
   /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/libxml2/libxml/tree.h \
   /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/libxml2/libxml/xmlversion.h \
   /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/libxml2/libxml/xmlexports.h \

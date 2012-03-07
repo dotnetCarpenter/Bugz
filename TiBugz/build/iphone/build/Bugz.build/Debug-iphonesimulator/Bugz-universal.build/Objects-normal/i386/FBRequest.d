@@ -1,10 +1,10 @@
 dependencies: \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/FBConnect/FBRequest.m \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/FBConnect/FBRequest.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/JSON/JSON.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/JSON/SBJSON.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/JSON/SBJsonParser.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/JSON/SBJsonBase.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/JSON/SBJsonWriter.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/JSON/NSObject+SBJSON.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/JSON/NSString+SBJSON.h
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/FBConnect/FBRequest.m \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/FBConnect/FBRequest.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/JSON/JSON.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/JSON/SBJSON.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/JSON/SBJsonParser.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/JSON/SBJsonBase.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/JSON/SBJsonWriter.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/JSON/NSObject+SBJSON.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/JSON/NSString+SBJSON.h

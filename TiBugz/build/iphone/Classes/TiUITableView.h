@@ -47,6 +47,8 @@
 	BOOL moving;
 	BOOL editing;
 	BOOL searchHidden;
+    BOOL hideOnSearch; // For backcompat, default 'true'
+    BOOL animateHide;
 	BOOL editable;
 	BOOL moveable;
 	BOOL initiallyDisplayed;
@@ -68,7 +70,6 @@
 	id	lastFocusedView; //DOES NOT RETAIN.	
 	UITableViewController *tableController;
 	UISearchDisplayController *searchController;
-	BOOL searchHiddenSet;
 	NSInteger frameChanges;
 }
 
@@ -86,6 +87,11 @@
 -(IBAction)hideSearchScreen:(id)sender;
 -(UITableView*)tableView;
 -(CGFloat)tableRowHeight:(CGFloat)height;
+
+#pragma Private
+-(void)selectRow:(id)args;
+-(void)deselectRow:(id)args;
+
 
 @end
 

@@ -47,8 +47,6 @@ void ModifyScrollViewForKeyboardHeightAndContentHeightWithResponderRect(UIScroll
 	// Touch detection
     BOOL changedInteraction;
 	BOOL handlesTouches;
-	BOOL handlesTaps;
-	BOOL handlesSwipes;
 	UIView *touchDelegate;		 // used for touch delegate forwarding
 	BOOL animating;
 	

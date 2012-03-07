@@ -1,1 +1,1 @@
-/Users/dotnetCarpenter/Projects/Titanium Studio Workspace/Bugz/Resources/hasText.js
+/Users/dotnetCarpenter/Projects/Titanium Studio Workspace/Bugz/TiBugz/Resources/hasText.js

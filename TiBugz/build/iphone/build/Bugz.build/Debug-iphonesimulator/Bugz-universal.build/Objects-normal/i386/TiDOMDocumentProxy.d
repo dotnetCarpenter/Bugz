@@ -1,21 +1,21 @@
 dependencies: \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiDOMDocumentProxy.m \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiDOMDocumentProxy.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiProxy.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiBase.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiThreading.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiPublicAPI.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiEvaluator.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/KrollContext.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/headers/TiCore/TiCore.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiDOMDocumentProxy.m \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiDOMDocumentProxy.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiProxy.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiBase.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiThreading.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiPublicAPI.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiEvaluator.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/KrollContext.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/headers/TiCore/TiCore.h \
   headers/TiCore/Ti.h headers/TiCore/TiBase.h \
   headers/TiCore/TiContextRef.h headers/TiCore/TiObjectRef.h \
   headers/TiCore/TiValueRef.h headers/TiCore/WebKitAvailability.h \
   headers/TiCore/TiStringRef.h headers/TiCore/TiStringRefCF.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/headers/TiCore/TiContextRefPrivate.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/KrollCallback.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/KrollObject.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/GDataXMLNode.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/headers/TiCore/TiContextRefPrivate.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/KrollCallback.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/KrollObject.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/GDataXMLNode.h \
   /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/libxml2/libxml/tree.h \
   /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/libxml2/libxml/xmlversion.h \
   /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/libxml2/libxml/xmlexports.h \
@@ -39,24 +39,24 @@ dependencies: \
   /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/libxml2/libxml/SAX2.h \
   /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/libxml2/libxml/xpath.h \
   /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/libxml2/libxml/xpathInternals.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiDOMNodeProxy.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiDOMNodeListProxy.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiDOMTextNodeProxy.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TIDOMCharacterDataProxy.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiDOMElementProxy.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiDOMAttrProxy.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiDOMCDATANodeProxy.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiDOMCommentProxy.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiDOMPIProxy.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiDOMDocFragProxy.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TIDOMDOMImplementationProxy.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TIDOMDocumentTypeProxy.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiDOMEntityRefProxy.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiUtils.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiColor.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiDimension.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/WebFont.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiFile.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiBuffer.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiBlob.h \
-  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/build/iphone/Classes/TiDOMValidator.h
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiDOMNodeProxy.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiDOMNodeListProxy.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiDOMTextNodeProxy.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TIDOMCharacterDataProxy.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiDOMElementProxy.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiDOMAttrProxy.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiDOMCDATANodeProxy.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiDOMCommentProxy.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiDOMPIProxy.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiDOMDocFragProxy.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TIDOMDOMImplementationProxy.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TIDOMDocumentTypeProxy.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiDOMEntityRefProxy.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiUtils.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiColor.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiDimension.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/WebFont.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiFile.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiBuffer.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiBlob.h \
+  /Users/dotnetCarpenter/Projects/Titanium\ Studio\ Workspace/Bugz/TiBugz/build/iphone/Classes/TiDOMValidator.h

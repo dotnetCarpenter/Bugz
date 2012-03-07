@@ -63,7 +63,7 @@
 	if (!needsHandleContentSize)
 	{
 		needsHandleContentSize = YES;
-		[self performSelectorOnMainThread:@selector(handleContentSize) withObject:nil waitUntilDone:NO];
+		TiThreadPerformOnMainThread(^{[self handleContentSize];}, NO);
 	}
 }
 

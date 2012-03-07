@@ -1,1 +1,1 @@
-/Users/dotnetCarpenter/Projects/Titanium Studio Workspace/Bugz/Resources/app.js
+/Users/dotnetCarpenter/Projects/Titanium Studio Workspace/Bugz/TiBugz/Resources/app.js

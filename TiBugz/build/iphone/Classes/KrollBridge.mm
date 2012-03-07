@@ -150,8 +150,14 @@ NSString * Bugz$ModuleRequireFormat = @"(function(exports){"
 	return nil;
 }
 
--(KrollObject*)addModule:(NSString*)name module:(TiModule*)module
+-(id)addModule:(NSString*)name module:(TiModule*)module
 {
+	// Have we received a JS Module?
+	if (![module respondsToSelector:@selector(unboundBridge:)])
+	{
+		[modules setObject:module forKey:name];
+		return module;
+	}
 	KrollObject *ko = [pageContext registerProxy:module];
 	if (ko == nil)
 	{
@@ -213,7 +219,7 @@ CFMutableSetRef	krollBridgeRegistry = nil;
 		OSSpinLockLock(&krollBridgeRegistryLock);
 		CFSetAddValue(krollBridgeRegistry, self);
 		OSSpinLockUnlock(&krollBridgeRegistryLock);
-		[self performSelectorOnMainThread:@selector(registerForMemoryWarning) withObject:nil waitUntilDone:NO];
+		TiThreadPerformOnMainThread(^{[self registerForMemoryWarning];}, NO);
 	}
 	return self;
 }
@@ -617,7 +623,7 @@ CFMutableSetRef	krollBridgeRegistry = nil;
 
 -(void)didStopNewContext:(KrollContext*)kroll
 {
-	[self performSelectorOnMainThread:@selector(unregisterForMemoryWarning) withObject:nil waitUntilDone:NO];
+	TiThreadPerformOnMainThread(^{[self unregisterForMemoryWarning];}, NO);
 	[self removeProxies];
 	RELEASE_TO_NIL(_bugz);
 	RELEASE_TO_NIL(context);

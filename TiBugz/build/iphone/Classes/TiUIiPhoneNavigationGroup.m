@@ -82,6 +82,7 @@
 
 -(void)close
 {
+	[self retain];
 	if (controller!=nil)
 	{
 		for (UIViewController *viewController in controller.viewControllers)
@@ -103,6 +104,7 @@
 		[visibleProxy autorelease];
 		visibleProxy = nil; // close/release handled by view removal
 	}
+	[self release];
 }
 
 -(void)open:(TiWindowProxy*)window withObject:(NSDictionary*)properties

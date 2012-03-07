@@ -562,15 +562,10 @@ DEFINE_EXCEPTIONS
 	}
 }
 
--(void)notifyImageCompleted:(NSArray*)args
+-(void)notifyRequest:(ImageLoaderRequest*) request imageCompleted:(UIImage*)image
 {
-	if ([args count]==2)
-	{
-		ImageLoaderRequest *request = [args objectAtIndex:0];
-		UIImage *image = [args objectAtIndex:1];
-		[[request delegate] imageLoadSuccess:request image:image];
-		[request setRequest:nil];
-	}
+	[[request delegate] imageLoadSuccess:request image:image];
+	[request setRequest:nil];
 }
 
 -(void)doImageLoader:(ImageLoaderRequest*)request
@@ -580,10 +575,7 @@ DEFINE_EXCEPTIONS
 	UIImage *image = [[self entryForKey:url] imageForSize:[request imageSize]];
 	if (image!=nil)
 	{
-		[self performSelectorOnMainThread:@selector(notifyImageCompleted:) 
-                               withObject:[NSArray arrayWithObjects:request,image,nil] 
-                            waitUntilDone:NO 
-                                    modes:[NSArray arrayWithObject:NSRunLoopCommonModes]];
+		TiThreadPerformOnMainThread(^{[self notifyRequest:request imageCompleted:image];}, NO);
 		return;
 	}
 	
@@ -775,7 +767,7 @@ DEFINE_EXCEPTIONS
 			return;
 		}
 		
-		[self notifyImageCompleted:[NSArray arrayWithObjects:req,image,nil]];
+		[self notifyRequest:req imageCompleted:image];
 	}
 	else
 	{

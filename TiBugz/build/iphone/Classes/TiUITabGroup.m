@@ -368,7 +368,8 @@ DEFINE_EXCEPTIONS
 			[controllers addObject:[tabProxy controller]];
 			if ([TiUtils boolValue:[tabProxy valueForKey:@"active"]])
 			{
-				focused = tabProxy;
+                RELEASE_TO_NIL(focused);
+				focused = [tabProxy retain];
 			}
 		}
 
@@ -383,7 +384,7 @@ DEFINE_EXCEPTIONS
 	}
 	else
 	{
-		focused = nil;
+		RELEASE_TO_NIL(focused);
 		[self tabController].viewControllers = nil;
 	}
 
@@ -412,7 +413,7 @@ DEFINE_EXCEPTIONS
 		{
 			UINavigationController *navController = (UINavigationController*)c;
 			TiUITabProxy *tab = (TiUITabProxy*)navController.delegate;
-			[tab removeFromTabGroup];
+			[tab closeTab];
 		}
 		controller.viewControllers = nil;
 	}
