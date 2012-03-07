@@ -1,3 +1,3 @@
-# Bugz is a collection of bug reports for web browsers
+# Bugz is a collection of bug reports for mainly js related stuff.
 
-- just started - move alongm nothing to see her #yet
+- Titanium hasText doesn't exist in Titanium.UI.TextField https://jira.appcelerator.org/browse/TC-669
