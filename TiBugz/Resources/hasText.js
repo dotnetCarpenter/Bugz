@@ -20,10 +20,6 @@ function createHasTextBug() {
 	});
 	textField.addEventListener('change', function(e) {
 		try {
-		/*	if(textField.hasText) {
-				Ti.API.log("No bug!");
-			}
-		*/
 			if(textField.hasText()) {
 				Ti.API.log("No bug!");
 			}

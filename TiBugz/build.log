@@ -1,9 +1,10 @@
 Logfile initialized
 [INFO] logfile = /Users/dotnetCarpenter/Projects/Titanium Studio Workspace/Bugz/TiBugz/build.log
-[DEBUG] /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/builder.py simulator Bugz /Users/dotnetCarpenter/src/android-sdk-macosx /Users/dotnetCarpenter/Projects/Titanium Studio Workspace/Bugz/TiBugz dk.napp.bugz 4 WVGA854 /127.0.0.1:50025
+[DEBUG] /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/builder.py simulator Bugz /Users/dotnetCarpenter/src/android-sdk-macosx /Users/dotnetCarpenter/Projects/Titanium Studio Workspace/Bugz/TiBugz dk.napp.bugz 4 WVGA854 /127.0.0.1:52209
 [INFO] Building Bugz for Android ... one moment
-[INFO] Titanium SDK version: 1.8.2 (02/23/12 17:46 59b3a90)
+[INFO] Titanium SDK version: 2.0.0 (03/30/12 10:32 b091bae)
 [DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 0 devices/emulators
 [TRACE] adb devices returned 1 devices/emulators
 [TRACE] adb devices returned 1 devices/emulators
 [TRACE] adb devices returned 1 devices/emulators
@@ -11,11 +12,14 @@ Logfile initialized
 [TRACE] adb devices returned 1 devices/emulators
 [TRACE] adb devices returned 1 devices/emulators
 [TRACE] adb devices returned 1 devices/emulators
-[DEBUG] Device connected... (waited 30 seconds)
-[DEBUG] waited 30.849070 seconds on emulator to get ready
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 45 seconds)
+[DEBUG] waited 45.202836 seconds on emulator to get ready
 [INFO] Waiting for the Android Emulator to become available
 [DEBUG] dk.napp.bugz installed? False
 [INFO] Fastdev server running, deploying in Fastdev mode
+[INFO] Copying CommonJS modules...
 [INFO] Copying project resources..
 [INFO] Detected tiapp.xml change (or assets deleted), forcing full re-build...
 [TRACE] COPYING CREATED FILE: /Users/dotnetCarpenter/Projects/Titanium Studio Workspace/Bugz/TiBugz/Resources/android/appicon.png => /Users/dotnetCarpenter/Projects/Titanium Studio Workspace/Bugz/TiBugz/build/android/bin/assets/Resources/appicon.png
@@ -114,35 +118,35 @@ Logfile initialized
 [DEBUG] from resource zip => res/drawable-notlong-port-ldpi/default_d44e27d97b.png
 [DEBUG] from resource zip => res/drawable-notlong-port-mdpi/background.png
 [DEBUG] from resource zip => res/drawable-notlong-port-mdpi/default_d44e27d97b.png
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/modules/titanium-facebook.jar => ti/modules/titanium/facebook/LICENSE
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/titanium.jar => org/appcelerator/titanium/build.properties
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/titanium.jar => org/appcelerator/titanium/res/drawable/background.png
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/thirdparty.jar => org/apache/Commons-NOTICE.txt
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/thirdparty.jar => org/apache/HttpComponents-NOTICE.txt
-[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/1.8.2/android/thirdparty.jar => org/apache/mime4j-NOTICE.txt
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/thirdparty.jar => org/apache/Commons-NOTICE.txt
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/thirdparty.jar => org/apache/HttpComponents-NOTICE.txt
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/thirdparty.jar => org/apache/mime4j-NOTICE.txt
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/titanium.jar => org/appcelerator/titanium/build.properties
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/titanium.jar => org/appcelerator/titanium/res/drawable/background.png
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG] from JAR /Users/dotnetCarpenter/Library/Application Support/Titanium/mobilesdk/osx/2.0.0.v20120330103228/android/modules/titanium-facebook.jar => ti/modules/titanium/facebook/LICENSE
 [DEBUG] installing native SDK libs
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.092437 seconds on emulator to get ready
+[DEBUG] waited 0.016798 seconds on emulator to get ready
 [INFO] Installing application on emulator
 [INFO] Launching application ... Bugz
 [TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=dk.napp.bugz/.BugzActivity }
 
 [INFO] Deployed Bugz ... Application should be running.
-[INFO] Forwarding host port 50025 to device for debugging.
-[INFO] Android Emulator has exited
+[INFO] Forwarding host port 52209 to device for debugging.
+[DEBUG] signal caught: 15
