@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="da-dk">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>Opera Bug - input[type="text"] shines through positioned text</title>
+		
+		<link rel="stylesheet" href="grid.css" type="text/css">
+		<style>
+			.right-arrow, .left-arrow {
+				font-size: 20em;
+				position: absolute;
+				top: 10%;
+				z-index: 100;
+				opacity: 0;
+				-moz-transition: opacity 0.3s ease;
+				-o-transition: opacity 0.3s ease;
+				-webkit-transition: opacity 0.3s ease;
+				transition: opacity 0.3s ease;
+			}
+			.right-arrow:hover, .left-arrow:hover {
+				cursor: pointer;
+				opacity: 1;
+			}
+			.right-arrow { right: 4.1667%; /*100% - .push_23*/ }
+		</style>
+	</head>
+
+	<body id="home" class="com_content featured ">
+		<article id="http://127.0.0.1:8020/xiing/Web/PageViewer/page1.html">
+			<section>
+				<div class="size_22 push_1">
+					<div class="box">
+						<div class="rowhead">
+							<h1 class="label">Expected outcome?</h1>
+						</div>
+						<div class="elements_3 light">						
+							<p class="label light">The input boxes should be hidden by the arrow.</p>
+							<p class="label light">Instead the borders shine through.</p>
+							<input type="text" class="textfield light" />
+						</div>
+						<div class="elements_3">						
+							<p class="label">The arrow is an unicode character (dingbat).</p>
+							<p class="label">U+2770 and U+2771</p>				
+							<input type="text" class="textfield" />
+						</div>
+						<div class="elements_3">						
+							<p class="label">Browser: Opera 11.62</p>
+							<p class="label">OS: Mac OS X 10.7.4</p>
+							<input type="text" class="textfield" />
+						</div>
+						<div class="elements_3">
+							<p class="label">UA String:</p>
+							<p class="label">Opera/9.80 (Macintosh; Intel Mac OS X 10.7.4; U; en) Presto/2.10.229 Version/11.62</p>
+							<input type="text" class="textfield" />
+						</div>
+					</div>
+				</div>
+			</section>
+		</article>
+		<div class="left-arrow push_1">
+			&#x2770;
+		</div>
+		<div class="right-arrow push_23">
+			&#x2771;
+		</div>
+	</body>
+</html>
